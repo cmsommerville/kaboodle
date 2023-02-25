@@ -1,0 +1,13 @@
+Flask
+Flask-Cors
+flask-marshmallow
+flask-restx
+Flask-SQLAlchemy
+marshmallow
+marshmallow-sqlalchemy
+pandas
+pyodbc
+python-dotenv
+requests
+SQLAlchemy
+urllib3

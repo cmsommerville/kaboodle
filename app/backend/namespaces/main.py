@@ -1,6 +1,10 @@
 from flask_restx import Namespace
 from ..resources import *
 
-ns_main = Namespace('ns_main')
+ns_app = Namespace('ns_app')
+ns_crud = Namespace('ns_crud')
 
-ns_main.add_resource(TestResource, '/test')
+ns_app.add_resource(Resource_Feedback, '/feedback')
+
+ns_crud.add_resource(CRUD_Feedback, '/feedback', '/feedback/<int:id>')
+ns_crud.add_resource(CRUD_User, '/user/<int:id>', '/user')

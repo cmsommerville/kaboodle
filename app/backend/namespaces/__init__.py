@@ -1,3 +1,5 @@
+from .main import ns_main
 
-
-NAMESPACES = []
+NAMESPACES = [
+    {'namespace': ns_main, 'path': '/'}, 
+]

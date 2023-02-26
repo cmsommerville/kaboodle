@@ -5,6 +5,7 @@ flask-restx
 Flask-SQLAlchemy
 marshmallow
 marshmallow-sqlalchemy
+openai
 pandas
 pyodbc
 python-dotenv

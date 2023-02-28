@@ -28,4 +28,4 @@ class Resource_Feedback(Resource):
 
 class CRUD_Feedback(BaseCRUDResource): 
     model=Model_Feedback
-    schema=Schema_Feedback
+    schema=Schema_Feedback()

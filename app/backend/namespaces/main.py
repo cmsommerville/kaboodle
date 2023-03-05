@@ -8,3 +8,4 @@ ns_app.add_resource(Resource_Feedback, '/feedback')
 
 ns_crud.add_resource(CRUD_Feedback, '/feedback', '/feedback/<int:id>')
 ns_crud.add_resource(CRUD_User, '/user/<int:id>', '/user')
+ns_crud.add_resource(CRUD_User_List, '/users')

@@ -12,7 +12,7 @@ const AppPanel = ({ className, children }: Props) => {
   return (
     <div
       className={classNames(
-        "px-4 py-6 bg-white rounded-lg border border-gray-200 shadow-md",
+        "px-4 py-6 bg-white rounded-sm border border-gray-200 shadow-md",
         className
       )}
     >

@@ -25,7 +25,7 @@ const AppButton = React.forwardRef<HTMLButtonElement, ButtonProps>(
     const bgClasses = useMemo(() => {
       if (transparent) {
         return classNames(
-          "px-8 py-2 flex items-center",
+          "px-8 py-1 flex items-center",
           "bg-transparent text-primary-600 border-2 border-primary-600",
           "hover:ring-primary-500",
           "disabled:text-gray-400 disabled:border-gray-400 disabled:ring-0"
@@ -39,7 +39,7 @@ const AppButton = React.forwardRef<HTMLButtonElement, ButtonProps>(
         );
       }
       return classNames(
-        "px-8 py-2 flex items-center",
+        "px-8 py-1 flex items-center",
         "bg-primary-600 text-white border-2 border-primary-600",
         "hover:ring-primary-600 hover:bg-primary-600",
         "disabled:bg-gray-400 disabled:border-gray-400 disabled:ring-0"
@@ -52,7 +52,7 @@ const AppButton = React.forwardRef<HTMLButtonElement, ButtonProps>(
         disabled={isLoading ?? false}
         {...rest}
         className={classNames(
-          "rounded-lg transition duration-300 ease",
+          "rounded-md transition duration-300 ease",
           "hover:ring-2 hover:ring-offset-2",
           bgClasses,
           className

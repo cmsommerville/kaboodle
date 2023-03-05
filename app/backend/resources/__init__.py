@@ -1,2 +1,3 @@
 from .Feedback import Resource_Feedback, CRUD_Feedback
-from .User import CRUD_User
+from .FeedbackRecipient import CRUD_FeedbackRecipient_List
+from .User import CRUD_User, CRUD_User_List

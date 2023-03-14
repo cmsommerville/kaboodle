@@ -6,11 +6,17 @@ import {
   HomeIcon,
   InboxIcon,
   UsersIcon,
+  PencilSquareIcon,
 } from "@heroicons/react/24/outline";
 
 const navigation = [
   { name: "Dashboard", to: "#", icon: HomeIcon, current: true },
-  { name: "Team", to: "#", icon: UsersIcon, current: false },
+  {
+    name: "Feedback",
+    to: "/feedback",
+    icon: PencilSquareIcon,
+    current: false,
+  },
   { name: "Projects", to: "#", icon: FolderIcon, current: false },
   { name: "Calendar", to: "#", icon: CalendarIcon, current: false },
   { name: "Documents", to: "#", icon: InboxIcon, current: false },

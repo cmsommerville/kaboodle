@@ -9,19 +9,19 @@
 }
 
 .mentions--multiLine .mentions__control {
-    @apply text-sm rounded-md;
+    @apply text-sm rounded;
 }
 
 .mentions--multiLine .mentions__highlighter {
-    @apply border border-transparent outline-0 rounded-md p-3 h-24;/* this padding must match the padding below */
+    @apply border border-transparent outline-0 rounded p-3 h-24;/* this padding must match the padding below */
 }
 
 .mentions--multiLine .mentions__input {
-    @apply border border-gray-200 outline-0 rounded-md p-3; /* this padding must match the padding above */
+    @apply border border-gray-200 outline-0 rounded p-3; /* this padding must match the padding above */
 }
 
 .mentions__suggestions__list {
-    @apply relative border border-gray-900/20 bg-white text-sm rounded-md overflow-hidden;
+    @apply relative border border-gray-900/20 bg-white text-sm rounded overflow-hidden;
     /* background-color: #ddd;
     border: 1px solid rgba(0, 0, 0, 0.15);
     font-size: 10pt; */
